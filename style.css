@@ -1,0 +1,176 @@
+/* establishes a blank canvass */
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;;
+    background-color: #f0edeb;
+  }
+
+  h1 { 
+    display: flex;
+    font-size: 45px;
+    text-align: center;
+    margin-left: 10%;
+  }
+  .main-text {
+    color: #111111;
+    font-size: 20px;
+    text-align: left;
+    margin: 135px 0px 20px 0px;
+  }
+
+  .icon-list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 0 20% 0 20%;
+  }
+
+  .contact-list {
+    display: block;
+    align-items: center;
+    text-align: left;
+    margin-left: 35%; 
+    margin-top: -5%; 
+  }
+
+  i {
+    font-size: 42px;
+  }
+
+  /* code for my nav bar */
+  nav {
+    width: 100%;
+    background-color: #111111;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    position: fixed;
+    top: 0;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  #right-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  #left-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nav-item a {
+    display: flex;
+    padding: 1.5em 3em 1.5em 3em;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+  }
+  .nav-item:hover {
+    background-color: white;
+    font-weight: 500;
+  }
+  .nav-item:hover a {
+    color: #111111;
+  }
+ 
+  /* images in the 2nd half of body */
+  .grid-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 3% 10% 0 10%;
+  }
+
+  .image-1, .image-2, .image-3 {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 5px grey;
+    margin: 0px 40px 25px 40px;
+  }
+  .image-1:hover, .image-2:hover, .image-3:hover {
+    transform: scale(1.03);
+  }
+  
+  .grid-item a {
+    text-decoration: none;
+    color: #111111;
+    margin-bottom: 10%;
+  }
+  .grid-item a:link {
+    text-decoration: none;
+    color: #111111;
+  }
+  .grid-item a:visited {
+    text-decoration: none;
+    color: #111111;
+  }
+  .grid-item a:hover {
+    text-decoration: none;
+    color: grey;
+  }
+  .grid-item a:active {
+    text-decoration: none;
+    color: #111111;
+  }
+
+  .grid-item a {
+    margin-bottom: 15%;
+  }
+
+  .grid-item p {
+    margin-bottom: 10%;
+  }
+
+  hr {
+    color: grey;
+
+  }
+
+  .about-me {
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    margin: 0 10% 0 10%;
+}
+
+.image-11 {
+  width: 350px;
+  max-width: 100%;
+  height: auto;
+  margin: 0px 10% 25px 10%;
+}
+
+.icon-and-text {
+  display: flex;
+  align-items: center;
+  margin-top: -5%;
+}
+
+.spacer {
+  padding-left: 5%;
+  white-space: nowrap;
+}
+
+
+add class to the text and padding x px
