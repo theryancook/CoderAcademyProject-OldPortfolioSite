@@ -217,3 +217,17 @@ html {
 .height {
   margin-top: -4%;
 }
+
+.blog-post {
+  margin: 1% 15% 5% 15%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.blog-post-title {
+  margin: 1% 15% 1% 15%;
+  margin-top: -3%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
