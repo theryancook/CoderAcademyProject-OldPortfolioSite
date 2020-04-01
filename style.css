@@ -193,3 +193,27 @@ html {
   text-decoration: none;
   color: #111111;
 }
+
+.story {
+  margin: 3% 15% 3% 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.story p {
+  max-width: 425px;
+}
+
+.story .two {
+  max-width: 950px;
+}
+
+.story img {
+  width: 425px;
+  height: auto;
+}
+
+.height {
+  margin-top: -4%;
+}
