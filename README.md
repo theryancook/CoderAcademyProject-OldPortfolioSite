@@ -32,9 +32,17 @@ Used the alt tags to assist visually impaired persons using the site
 ![wirframe](images/wireframe.png)
 
 ## Screenshots
+![index](images/index.png)
+![aboutme](images/aboutme.png)
+![blog](images/blog.png)
+![conactme](images/contactme.png)
 
 ## Target Audience
+Potentially employers at companies who i've reached out to or recruiters for companies within the industry.
 
-# Tech Stack
+## Tech Stack
+HTML, CSS & GitHub
 
-# Project Management
+## Project Management
+Trello was used for project management, with the tasks mapped to each day then moved to complete or check box completed.
+![trello](images/trello.png)
